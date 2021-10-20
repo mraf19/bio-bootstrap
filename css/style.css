@@ -1,0 +1,37 @@
+body {
+    font-size: 18px;
+    font-family: 'Andada Pro', serif;
+}
+.brand {
+    font-size: 2em;
+}
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: grid;
+    place-content: center;
+}
+
+.text-bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.list-none {
+    list-style: none;
+    padding: 0;
+}
+
+.w-400{
+    width: 400px;
+}
+
+.pt-6r {
+    padding-top: 6rem;
+}
+.pt-10r {
+    padding-top: 10rem;
+}
+

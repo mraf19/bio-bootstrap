@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-bebas brand" href="#">Muhammad Rafli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#skillhobby">Skills & Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#contactme">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 mb-5 hero text-white">
+        <p class="fs-5 fst-italic text-center fw-bold">Full Stack Developer</p>
+        <h1 class="display-3 text-center text-bebas fw-bold">Muhammad Rafli</h1>
+    </div>
+    <div class="container pt-6r my-5 text-center align-middle" id="aboutme">
+        <h2 class="display-4 fw-bold">About Me</h2>
+        <p class="fst-italic mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nemo exercitationem odit repellat blanditiis sed ab, doloremque quidem fugiat numquam.</p>
+    </div>
+    <div class="container pt-10r" id="skillhobby">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="text-center fw-bold">Skills</h3>
+                <ul class="list-none text-center fst-italic">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="text-center fw-bold">Hobbies</h3>
+                <ul class="list-none text-center fst-italic">
+                    <li>Membaca</li>
+                    <li>Mendengar Musik</li>
+                    <li>Bermain Game</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="contactme" class="container-fluid pt-6r my-5">
+        <h3 class="text-center display-4 fw-bold">Contact Me</h3>
+        <form action="POST"> 
+            <div class="mb-3 w-400 mx-auto">
+            <label for="email" class="form-label">Email address :</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 w-400 mx-auto">
+            <label for="message" class="form-label">Message :</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-400 mx-auto text-center d-grid gap-2">Send</button>
+        </form>
+    </div>
+    <div class="footer bg-dark text-white text-center p-3">
+        <footer>&copy;2021 - All right reserves</footer>
+    </div>
+    <script src="css/bootstrap.min.js"></script>
+</body>
+</html>
